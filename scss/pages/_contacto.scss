@@ -28,6 +28,31 @@
         font-size: var(--text-sm);
         
     }
+
+    #contacto__section {
+
+        background-color: var(--cuaternario);
+        opacity: 1;
+        height: 300px;
+
+        .contacto {
+
+            position: relative;
+            top: 220px;
+            font-size: 48px;
+            margin-left: 20px;
+            color: #fff;
+            border-radius: var(--cuaternario);
+
+            p {
+                color: var(--primario);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding-top: 40px;
+                font-size: 25px;
+            }
+        }
+    }
+
     .main-contact {
 
         display: flex;
@@ -36,6 +61,7 @@
         justify-content: space-around;
         margin-top: 200px;
         margin-bottom: 500px;
+        
 
     }
 
@@ -92,6 +118,7 @@
 
         
         border: solid var(--primario);
+        
     }
     .maps {
 

@@ -8,7 +8,7 @@
 :root {
   /*Palette*/
   --primario: #297474;
-  --secundario: 8a897c;
+  --secundario: #8a897c;
   --terciario: #ffffff;
   --cuaternario: #51A3A3;
   --quinario: #0d2033;
@@ -295,6 +295,23 @@ p {
 .contacto_h3 {
   padding-right: 10px;
   font-size: var(--text-sm); }
+
+#contacto__section {
+  background-color: var(--cuaternario);
+  opacity: 1;
+  height: 300px; }
+  #contacto__section .contacto {
+    position: relative;
+    top: 220px;
+    font-size: 48px;
+    margin-left: 20px;
+    color: #fff;
+    border-radius: var(--cuaternario); }
+    #contacto__section .contacto p {
+      color: var(--primario);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding-top: 40px;
+      font-size: 25px; }
 
 .main-contact {
   display: flex;
