@@ -1,5 +1,27 @@
 /*::: MEDIA QUERIES :::*/
     
+@media (max-width: 1200px) {
+    
+    .main-contact {
+
+        display: flex;
+        flex-direction: column;
+        gap: 80px }
+
+
+    .contact {
+
+        width: auto;;
+        height: auto;
+        content: '';
+        border-radius: 10px;
+                
+        }
+    }  
+
+    
+
+
 @media (max-width: 992px) {
 
     .nav {
@@ -17,24 +39,6 @@
 
         }
 
-    
-    .main-contact {
-
-        display: flex;
-        flex-direction: column;
-        gap: 80px }
-
-    .contact {
-
-        width: auto;;
-        height: auto;
-    }
-
-    .maps {
-
-        height: auto;
-        width: auto;
-    }    
     .article__subtitle { 
         
         margin-top: 50px;
@@ -70,6 +74,13 @@
             gap: 10px;
 
         }
+
+        .maps {
+
+            width: 400px;
+            height: auto ;
+    
+        }
 }
 
 
@@ -82,6 +93,19 @@
             flex-wrap: wrap;
             align-items: center;
             align-content: stretch; 
+        }
+        .form-contact {
+
+            width: auto;
+            height: auto;
+            
+                    
+            }
+        .maps {
+
+            width: auto;
+            height: auto ;
+    
         }
     }
 }
