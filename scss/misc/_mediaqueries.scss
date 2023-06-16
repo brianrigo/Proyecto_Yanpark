@@ -49,6 +49,21 @@
 }
 
 @media (max-width: 768px) {
+
+    //HEADER//
+
+    #header .nav .nav_link .animation_nav {
+
+        font-size:14px;
+    }
+        .img_logo {
+
+            height: auto;
+            width: auto;
+    }
+
+
+
     .user_info { 
         grid-template-columns: repeat(1, 1fr); 
     }
@@ -110,9 +125,3 @@
     }
 }
 
-/* Media Query para mostrar el menú en pantallas más pequeñas */
-// @media screen and (max-width: 768px) {
-//     .nav_link {
-        
-//         }
-//     }

@@ -41,16 +41,12 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  position: relative; }
+  position: static; }
   #header .img_logo {
     /*IMAGEN LOGO HEADER*/
     height: 60px;
     padding-top: 20px;
     margin-bottom: 10px; }
-  #header .hamburger {
-    /*MENÚ HAMBURGUESAS*/
-    display: none;
-    color: var(--terciario); }
   #header .nav {
     margin-right: 30px; }
     #header .nav .nav_link {
@@ -385,6 +381,11 @@ input[type='submit'] {
     flex-wrap: wrap; } }
 
 @media (max-width: 992px) and (max-width: 768px) {
+  #header .nav .nav_link .animation_nav {
+    font-size: 14px; }
+  .img_logo {
+    height: auto;
+    width: auto; }
   .user_info {
     grid-template-columns: repeat(1, 1fr); }
   .gallery__div {
@@ -418,5 +419,3 @@ input[type='submit'] {
   .maps {
     width: auto;
     height: auto; } }
-
-/* Media Query para mostrar el menú en pantallas más pequeñas */

@@ -7,17 +7,12 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    position:relative;
+    position:static;
 
     .img_logo { /*IMAGEN LOGO HEADER*/
         height: 60px;
         padding-top:20px;
         margin-bottom: 10px;
-    }
-    .hamburger { /*MENÚ HAMBURGUESAS*/
-
-        display: none;
-        color: var(--terciario)
     }
     
         .nav {
