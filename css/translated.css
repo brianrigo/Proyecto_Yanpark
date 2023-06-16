@@ -386,6 +386,8 @@ input[type='submit'] {
   .img_logo {
     height: auto;
     width: auto; }
+  #contenedor__main .texto-int-imagen h2 {
+    font-size: 16px; }
   .user_info {
     grid-template-columns: repeat(1, 1fr); }
   .gallery__div {
