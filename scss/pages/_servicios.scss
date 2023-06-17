@@ -115,10 +115,12 @@
                 flex-direction: column;
                 background-clip: border-box;
                 width: 500px;
-                & p{
+
+                & .card__description{
                     border-radius: 20px;
                     border: solid;
                     padding: 20px;
+
                     
                     
                 }

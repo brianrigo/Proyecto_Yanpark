@@ -81,22 +81,18 @@
             position: relative;
             
         }
-    .user_info { 
-        grid-template-columns: repeat(1, 1fr); 
-    }
+        .section-servicios {
 
-    .gallery__div { 
-    
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(8, 1fr);
+            background-attachment:scroll;
+
         }
         .section-servicios .article--servicios  {
 
-        display: flex;
-        flex-direction: row;
-
+            display: flex;
+            flex-direction: row;
+        
         }
-        .section2-servicios .div--card .article-card .card {
+        .section2-servicios .div--card .article-card .card { //CARD DE SERVICIOS
 
             display: flex;
             flex-direction: column;
@@ -107,7 +103,7 @@
 
         }
 
-        .maps {
+        .maps { //MAPA DE CONTACTO //
 
             width: 400px;
             height: auto ;

@@ -36,32 +36,31 @@
                     text-decoration: none;
                     color: var(--terciario);
 
-                &:before,
-                &:after {
+                &:after,
+                &::before {
                     height: 14px;
                     width: 14px;
                     position: absolute;
                     content: '';
                 }
-                &:before {
+                &::after {
                     left: 0;
                     top: 0;
                     border-bottom: 3px solid var(--terciario);
-                    -webkit-transform: translate(100%, 50%);
                     transform-style: preserve-3d;
-                    transform: translate(100%, 50%);
                     top: -10px;
                     transition: width 0.5s;
                 }
 
-                &:before,
-                &:after {
-                    -webkit-transform: translate(0%, 0%);
+                &::after,
+                &::before {
+                    // -webkit-transform: translate(0%, 0%);
                     transform-style: preserve-3d;
-                    transform: translate(0%, 0%);
+                    // transform: translate(0%, 0%);
                     }
-                &:hover::before {
-                    width: 100%;
+                &:hover::after {
+                    width: 80%;
+
                 }
             }
         }

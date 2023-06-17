@@ -65,26 +65,22 @@ body {
         padding: 0.5em 0.8em;
         text-decoration: none;
         color: var(--terciario); }
-        #header .nav .nav_link .animation_nav:before, #header .nav .nav_link .animation_nav:after {
+        #header .nav .nav_link .animation_nav:after, #header .nav .nav_link .animation_nav::before {
           height: 14px;
           width: 14px;
           position: absolute;
           content: ''; }
-        #header .nav .nav_link .animation_nav:before {
+        #header .nav .nav_link .animation_nav::after {
           left: 0;
           top: 0;
           border-bottom: 3px solid var(--terciario);
-          -webkit-transform: translate(100%, 50%);
           transform-style: preserve-3d;
-          transform: translate(100%, 50%);
           top: -10px;
           transition: width 0.5s; }
-        #header .nav .nav_link .animation_nav:before, #header .nav .nav_link .animation_nav:after {
-          -webkit-transform: translate(0%, 0%);
-          transform-style: preserve-3d;
-          transform: translate(0%, 0%); }
-        #header .nav .nav_link .animation_nav:hover::before {
-          width: 100%; }
+        #header .nav .nav_link .animation_nav::after, #header .nav .nav_link .animation_nav::before {
+          transform-style: preserve-3d; }
+        #header .nav .nav_link .animation_nav:hover::after {
+          width: 80%; }
 
 /*:::::Pie de Pagina*/
 .pie-pagina {
@@ -258,7 +254,7 @@ p {
       flex-direction: column;
       background-clip: border-box;
       width: 500px; }
-      .section2-servicios .div--card .card p {
+      .section2-servicios .div--card .card .card__description {
         border-radius: 20px;
         border: solid;
         padding: 20px; }
@@ -414,11 +410,8 @@ input[type='submit'] {
     background-size: cover;
     height: 250px;
     position: relative; }
-  .user_info {
-    grid-template-columns: repeat(1, 1fr); }
-  .gallery__div {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8, 1fr); }
+  .section-servicios {
+    background-attachment: scroll; }
   .section-servicios .article--servicios {
     display: flex;
     flex-direction: row; }
