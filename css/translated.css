@@ -405,6 +405,15 @@ input[type='submit'] {
     width: auto; }
   #contenedor__main .texto-int-imagen h2 {
     font-size: 16px; }
+  .parallax {
+    /*ESTILO IMÁGENES PARRALLAX*/
+    display: flex;
+    justify-content: center;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    position: relative; }
   .user_info {
     grid-template-columns: repeat(1, 1fr); }
   .gallery__div {
